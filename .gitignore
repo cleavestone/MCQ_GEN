@@ -1,0 +1,11 @@
+# Virtual environment
+env/
+# Environment variables file
+.env
+# Python bytecode files
+*.pyc
+__pycache__/
+# Log files
+*.log
+# Streamlit cache directories
+.streamlit/
