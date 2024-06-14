@@ -24,7 +24,7 @@ Generative AI: Leveraging AI to create dynamic content and applications.
 🗂 Project Structure
 plaintext
 
-![](r"C:\Users\Hp\Downloads\folder_structure.png")
+![]("https://github.com/cleavestone/MCQ_GEN/blob/main/folder_structure.png")
 
 🛠️ Setup and Installation
 Clone the repository:
