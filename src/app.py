@@ -12,7 +12,7 @@ from openai_utils import generate_evaluate_chain
 from logger import logging
 
 #loading the json file
-with open(r"C:\Users\Hp\Desktop\MCQ_GEN\response.json")  as file:
+with open(r"C:\Users\Hp\Desktop\MCQ_GEN\Response.json")  as file:
     RESPONSE_JSON=json.load(file)
 
 #Create the title for the app
