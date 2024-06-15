@@ -24,18 +24,7 @@ Generative AI: Leveraging AI to create dynamic content and applications.
 🗂 Project Structure
 plaintext
 
-MCQ_GEN/
-├── env/                    # Virtual environment for managing dependencies
-├── src/                    # Source code of the project
-│   ├── __init__.py         # Makes src a package
-│   ├── app.py              # Main application script
-│   ├── openai_utils.py     # Utility functions for interacting with OpenAI API
-│   ├── text_utils.py       # Utility functions for reading and processing text files
-│   └── logger.py           # Logger configuration and setup
-├── Response.json           # Sample response JSON file
-├── .gitignore              # Specifies files and directories to be ignored by Git
-├── requirements.txt        # Lists project dependencies
-├── README.md               # Project documentation
+![](r"C:\Users\Hp\Downloads\folder_structure.png")
 
 🛠️ Setup and Installation
 Clone the repository:
