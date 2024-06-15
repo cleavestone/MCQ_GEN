@@ -28,13 +28,13 @@ create a quiz  of {number} multiple choice questions for students.
 Make sure the questions are not repeated and check all the questions to be conforming the text as well.
 Make sure to format your response like  RESPONSE_JSON below  and use it as a guide. \
 Ensure to make {number} MCQs
-### RESPONSE_JSON
-{response_json}
+
+{Response_json}
 
 """
 
 quiz_generation_prompt = PromptTemplate(
-    input_variables=["text", "number","response_json"],
+    input_variables=["text", "number","Response_json"],
     template=template)
 
 
@@ -59,5 +59,5 @@ review_chain=LLMChain(llm=llm, prompt=quiz_evaluation_prompt, output_key="review
 
 
 # This is an Overall Chain where we run the two chains in Sequence
-generate_evaluate_chain=SequentialChain(chains=[quiz_chain, review_chain], input_variables=["text", "number", "response_json"],
+generate_evaluate_chain=SequentialChain(chains=[quiz_chain, review_chain], input_variables=["text", "number", "Response_json"],
                                         output_variables=["quiz", "review"], verbose=True,)
